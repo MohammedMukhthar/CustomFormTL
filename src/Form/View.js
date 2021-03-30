@@ -11,6 +11,7 @@ class View extends Component {
             name="FirstName"
             value={this.props.firstName}
             readOnly={true}
+            style={{ marginLeft: "30px" }}
           />
         </div>
         <div>
@@ -20,6 +21,7 @@ class View extends Component {
             name="SecondName"
             value={this.props.secondName}
             readOnly={true}
+            style={{ marginLeft: "10px" }}
           />
         </div>
         <div>
@@ -29,6 +31,7 @@ class View extends Component {
             name="EmployeeId"
             value={this.props.employeeId}
             readOnly={true}
+            style={{ marginLeft: "25px" }}
           />
         </div>
       </div>

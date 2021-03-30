@@ -11,6 +11,7 @@ class FirstPage extends Component {
             name="FirstName"
             value={this.props.firstName}
             onChange={this.props.onChange}
+            style={{ marginLeft: "30px" }}
           />
         </div>
         <div>
@@ -20,6 +21,7 @@ class FirstPage extends Component {
             name="SecondName"
             value={this.props.secondName}
             onChange={this.props.onChange}
+            style={{ marginLeft: "10px" }}
           />
         </div>
       </div>

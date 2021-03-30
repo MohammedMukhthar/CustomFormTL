@@ -10,6 +10,7 @@ class SecondPage extends Component {
           name="EmployeeId"
           value={this.props.employeeId}
           onChange={this.props.onChange}
+          style={{ marginLeft: "25px" }}
         />
       </div>
     );
