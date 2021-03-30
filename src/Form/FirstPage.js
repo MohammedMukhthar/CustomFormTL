@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 class FirstPage extends Component {
   render() {
-    console.log("FirstPage");
     return (
       <div>
         <div>
